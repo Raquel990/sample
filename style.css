@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  border: 2px solid red;
+  
+}
+
+p {
+  border: 2px solid green;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
